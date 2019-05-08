@@ -1,9 +1,47 @@
+var wordlist = [ 
+    "seven", 
+    "world", 
+    "about", 
+    "again", 
+    "heart", 
+    "water", 
+    "happy", 
+    "sixty", 
+    "board", 
+    "month", 
+    "angel", 
+    "death", 
+    "green",
+    "music", 
+    "fifty", 
+    "three", 
+    "party", 
+    "piano",  
+    "mouth", 
+    "woman", 
+    "sugar", 
+    "amber", 
+    "dream", 
+    "apple", 
+    "laugh", 
+    "tiger", 
+    "faith", 
+    "earth", 
+    "river", 
+    "money", 
+    "peace", 
+    "pizza", 
+];
+    
+var word = wordlist[Math.floor(Math.random()*wordlist.length)];
+
 
 function checkWord() {
-    var word = "index";
+    
     var inputletter = document.getElementById('input').value;
     var inputindex = word.indexOf(inputletter);
     
+
     if (word.includes(inputletter)) {
 
     if (inputindex == 0) {
