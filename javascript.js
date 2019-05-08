@@ -1,12 +1,12 @@
 
-function checkletter() {
-    var firstletter = 'a';
-    var input = document.getElementById('input').value;
+function checkWord() {
+    var word = "hangman";
+    var inputletter = document.getElementById('input').value;
     
-    if (input === firstletter) {
-        document.getElementById('letter1').innerHTML = input;
-    }
+    if (word.includes(inputletter)) {
+        document.getElementById('letter1').innerHTML = inputletter;
+    } 
     
-}
+}  
 
-document.getElementById('check').addEventListener('click', checkletter);
+document.getElementById('check').addEventListener('click', checkWord);
