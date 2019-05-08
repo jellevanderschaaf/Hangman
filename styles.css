@@ -1,5 +1,6 @@
 .header {
     text-align: center;
+    padding-top: 50px;
 }
 
 .container {
@@ -16,3 +17,11 @@
     display: inline-block;
     padding: 10px;
 }
+
+.inputdiv {
+    width: 100px;
+    text-align: center;
+    padding-bottom: 50px;
+    margin: auto;
+}
+
