@@ -1,11 +1,12 @@
 .header {
     text-align: center;
     padding-top: 50px;
+    padding-bottom: 10px
 }
 
 .container {
     text-align: center;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .containerword {
@@ -25,3 +26,22 @@
     margin: auto;
 }
 
+.gallowImage {
+    display: inline;
+}
+
+.grid-container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 300px 300px 300px;
+    grid-gap: 10px;
+}
+
+.grid-item {
+    height: 400px;
+    width: 300px;
+}
+
+#scoreNotification {
+    padding-bottom: 50px;
+}
