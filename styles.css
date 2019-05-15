@@ -45,3 +45,21 @@
 #scoreNotification {
     padding-bottom: 50px;
 }
+
+.alphabet {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 30px 30px 30px 30px;
+    grid-template-rows: 30px 30px 30px 30px 30px 30px;
+    grid-gap: 10px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.letter {
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    padding: 0px;
+    color: black;
+}
